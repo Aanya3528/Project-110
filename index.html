@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Handgestures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <div class="container">
+  
+    <center>
+<br><br>
+      <button id="heading" class="btn btn-info">
+<h2>Gestures Web App</h2>
+<br>
+<span>&#9994;</span>
+<span>&#9996;</span>
+<span>&#128076;</span>
+<span>&#128077;</span>
+<span>&#128079;</span>
+      </button>
+
+      <br><br>
+<h4><b>Take an image of hand gestures with white background to know the emoji!</b></h4>
+<div><button><h4><b>The emotions this app identifies are - </b></h4>
+<span>&#128076;</span>।<span>&#128077;</span>।<span>&#9996;</span></button></div>
+
+<br><br>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+         <span><label>Webcam - </label>
+         <div id="camera"></div>
+         <br>
+         <button id="Click" onclick="click()">Click</button></span>
+         
+
+        <br><br>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+
+        <span><label>Prediction -  </label>
+            <div id="result_emotion_name"><b>Your emoji is - </b></div>
+
+      </div>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+      <span><label>Snapshot - </label>
+        <div id="snapshot"></div>
+        <br>
+        <button id="identify" onclick="identify()">Identify Hand Gesture</button></span>
+</div>
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
