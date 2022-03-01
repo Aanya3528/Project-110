@@ -1,0 +1,47 @@
+body
+{
+  color: white;
+ background:linear-gradient(white,pink,rgb(255, 109, 255));
+}
+
+h4{
+
+    font-size:30px;
+
+}
+
+label,button
+{
+  font-size: 20px;
+  font-family: 'Dancing Script', cursive;
+  background-color: aliceblue;
+  color: rgb(79, 223, 203);
+  width: 220px;
+  border-radius: 20px;
+}
+#camera , #snapshot
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name 
+{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+
+#heading,h4{
+
+font-family: 'Dancing Script', cursive;
+
+}
